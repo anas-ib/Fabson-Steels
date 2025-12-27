@@ -1,0 +1,305 @@
+Build a premium, minimal, production-ready website for a steel & fabrication business named Fabson, using React as the core framework.
+
+The website must feel clean, modern, and trustworthy, using a strict white background with black text only.
+No colorful gradients, no decorative colors, no flashy UI.
+
+🔧 TECH STACK & UI RULES
+Tech
+
+React (Vite or Next.js preferred)
+
+Functional components + hooks
+
+Component-based architecture
+
+Mobile-first
+
+SEO-friendly
+
+Fast load
+
+UI System (VERY IMPORTANT)
+
+Background: pure white
+
+Text: pure black
+
+Borders: light black / subtle gray
+
+Buttons:
+
+Black background + white text
+
+OR white background + black border + black text
+
+No bright colors
+
+No gradients
+
+No shadows overload
+
+Minimal icons (outline style only)
+
+Premium > flashy.
+
+🧱 WEBSITE STRUCTURE & BEHAVIOR
+1️⃣ HEADER (Sticky, Clean)
+
+Logo text: Fabson
+
+Navigation: Home | Services | Gallery | Contact
+
+Right side:
+
+Call Now
+
+WhatsApp
+
+Clean divider line below header
+
+No background color, white only
+
+2️⃣ HERO SECTION (Premium & Calm)
+
+Purpose: clarity + confidence
+
+Content:
+
+Large bold heading:
+Custom Steel & Fabrication Works
+
+Subtext (lighter weight):
+Gates · Kitchen Steel · Racks · Custom Fabrication
+
+Primary CTA (black button):
+Book Free Site Visit
+
+Secondary CTA (outlined button):
+Get Instant Quote
+
+Trust points (small text):
+
+Free Inspection
+
+Transparent Pricing
+
+Local Trusted Work
+
+No hero gradients. No color blocks.
+
+3️⃣ HOW IT WORKS (Editorial Style)
+
+Minimal horizontal layout:
+
+01 Choose Service
+02 Share Photo
+03 Get Estimate
+04 Free Site Visit
+
+
+Black text only
+
+Thin separators
+
+No icons if unnecessary
+
+4️⃣ SERVICE SELECTOR (Minimal Cards)
+
+Services as bordered cards:
+
+Steel Gates
+
+Kitchen Steel Work
+
+Racks / Stands
+
+Custom Fabrication
+
+Interaction:
+
+On click → store service in state
+
+Opens Instant Quote flow
+
+Cards:
+
+White background
+
+Black border
+
+Black text
+
+Subtle hover effect (border darkens)
+
+5️⃣ INSTANT QUOTE FLOW (Modal / Section)
+
+Minimal form:
+
+Fields:
+
+Selected Service (read-only)
+
+Upload Photo (optional)
+
+Phone Number (required)
+
+CTA:
+
+Get Quote on WhatsApp (black button)
+
+Logic:
+
+Opens WhatsApp with prefilled message:
+
+Service: <Selected Service>
+Location: Mangalore
+Requesting estimate
+
+
+No backend required.
+
+6️⃣ STEEL COST TRANSPARENCY (Premium Trust Section)
+
+Editorial-style text block:
+
+Title:
+Steel Cost Transparency
+
+Content:
+
+Pricing depends on:
+
+Steel thickness
+
+Design complexity
+
+Finish type
+
+Installation
+
+Clear disclaimer:
+Final pricing confirmed after site visit.
+
+No numbers unless client insists.
+
+7️⃣ BOOK FREE SITE VISIT (PRIMARY CONVERSION)
+
+Clean form, no clutter.
+
+Fields:
+
+Name
+
+Phone (required)
+
+Area / Location
+
+Preferred Time
+
+CTA:
+
+Book Site Visit (black button)
+
+Logic:
+
+Opens WhatsApp with:
+
+Requesting free site visit
+Location: <Area>
+Preferred time: <Time>
+
+8️⃣ GALLERY (Editorial Grid)
+
+White background
+
+Black spacing
+
+Real images only
+
+Grid layout
+
+No captions needed
+
+“View Full Gallery” (text button)
+
+9️⃣ WHY CHOOSE FABSON
+
+Simple bullet list:
+
+Custom fabrication
+
+Quality steel materials
+
+Experienced workers
+
+On-time delivery
+
+Transparent pricing
+
+No icons if not needed.
+
+🔟 CONTACT
+
+Minimal contact block:
+
+Phone (clickable)
+
+WhatsApp
+
+Location: Mangalore
+
+1️⃣1️⃣ MAP
+
+Google Map embed
+
+No styling overlays
+
+1️⃣2️⃣ FOOTER
+
+Text only:
+
+Fabson
+Steel & Fabrication Works – Mangalore
+© 2025
+
+📱 MOBILE EXPERIENCE
+
+Sticky bottom bar (white background, black text):
+
+Call
+
+WhatsApp
+
+Large tap targets
+
+Forms with max 3–4 fields
+
+Zero clutter
+
+🧠 DESIGN PHILOSOPHY
+
+Calm
+
+Confident
+
+Professional
+
+Industrial
+
+No gimmicks
+
+This site should feel like:
+
+“Serious people, serious work.”
+
+📦 FINAL DELIVERABLE
+
+Clean React component structure
+
+Reusable UI components
+
+Working WhatsApp flows
+
+Fully responsive
+
+Ready for deployment
