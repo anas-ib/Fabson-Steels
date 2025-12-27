@@ -66,7 +66,7 @@ export function Services({ onSelectService }: ServicesProps) {
                 <h3 className="text-xl font-bold mb-2 font-heading">{service.title}</h3>
                 <p className="text-sm text-muted-foreground mb-6">{service.description}</p>
                 <div className="flex items-center text-sm font-medium border-b border-black/10 pb-1 w-fit group-hover:border-black transition-colors">
-                  Get Instant Quote <ArrowRight className="ml-2 h-3 w-3" />
+                  Know More <ArrowRight className="ml-2 h-3 w-3" />
                 </div>
               </div>
             </div>

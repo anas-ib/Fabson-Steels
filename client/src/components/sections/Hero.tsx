@@ -44,7 +44,7 @@ export function Hero({ onBookVisit, onGetQuote }: HeroProps) {
               onClick={onGetQuote}
               className="border-black text-black hover:bg-black hover:text-white h-14 px-8 text-lg rounded-none bg-transparent"
             >
-              Get Instant Quote
+              Know More
             </Button>
           </motion.div>
 

@@ -29,7 +29,7 @@ export function QuoteModal({ isOpen, onClose, defaultService }: QuoteModalProps)
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-md rounded-none border-black p-0 overflow-hidden bg-white gap-0">
         <div className="p-6 bg-black text-white">
-          <DialogTitle className="text-xl font-heading">Get Instant Quote</DialogTitle>
+          <DialogTitle className="text-xl font-heading">Know More</DialogTitle>
           <p className="text-white/70 text-sm mt-2">
             We'll analyze your request and reply on WhatsApp.
           </p>
@@ -72,7 +72,7 @@ export function QuoteModal({ isOpen, onClose, defaultService }: QuoteModalProps)
                disabled={!phone}
              >
                <MessageCircle className="h-4 w-4" />
-               Get Quote on WhatsApp
+               Connect on WhatsApp
              </Button>
           </div>
         </div>
