@@ -15,7 +15,7 @@ export function Contact() {
                   <h3 className="font-bold mb-1">Workshop Location</h3>
                   <p className="text-muted-foreground">
                     Fabson Steel Works<br />
-                    Industrial Area, Baikampady<br />
+                    {/* Industrial Area, Baikampady<br /> */}
                     Mangalore, Karnataka 575011
                   </p>
                 </div>
@@ -26,7 +26,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-bold mb-1">Phone</h3>
                   <p className="text-muted-foreground hover:text-black transition-colors">
-                    <a href="tel:+919876543210">+91 98765 43210</a>
+                    <a href="tel:+919876543210">+917510728660</a>
                   </p>
                 </div>
               </div>
@@ -36,7 +36,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-bold mb-1">WhatsApp</h3>
                   <p className="text-muted-foreground hover:text-black transition-colors">
-                    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/917510728660" target="_blank" rel="noopener noreferrer">
                       Chat with us
                     </a>
                   </p>
