@@ -1,9 +1,4 @@
 {
-  "projects": [
-    {
-      "rootDirectory": "client",
-      "outputDirectory": "dist/public"
-    }
-  ]
+  "outputDirectory": "dist/public"
 }
 
