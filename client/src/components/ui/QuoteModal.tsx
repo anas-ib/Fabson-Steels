@@ -21,7 +21,7 @@ export function QuoteModal({ isOpen, onClose, defaultService }: QuoteModalProps)
     if (!phone) return;
     
     const text = `Service: ${service}%0ALocation: Mangalore%0APhone: ${phone}%0A${notes ? `Notes: ${notes}%0A` : ""}Requesting estimate`;
-    window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
+    window.open(`https://wa.me/917510728660?text=${text}`, "_blank");
     onClose();
   };
 

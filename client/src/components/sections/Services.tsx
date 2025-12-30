@@ -1,8 +1,8 @@
 import { ArrowRight } from "lucide-react";
-import gateImg from "@assets/stock_images/modern_minimalistic__b4ca4779.jpg";
-import kitchenImg from "@assets/stock_images/stainless_steel_modu_5ffa047b.jpg";
-import rackImg from "@assets/stock_images/industrial_heavy_dut_8194c77a.jpg";
-import weldingImg from "@assets/stock_images/professional_steel_f_4317e25c.jpg";
+import gateImg from "@assets/stock_images/steelgate.jpg";
+import kitchenImg from "@assets/stock_images/kitchen.jpg";
+import rackImg from "@assets/stock_images/racks.jpg";
+import weldingImg from "@assets/stock_images/customfabrication.png";
 
 const services = [
   {
@@ -13,7 +13,7 @@ const services = [
   },
   {
     id: "kitchen",
-    title: "Kitchen Steel Work",
+    title: "Kitchen Work",
     description: "Modular stainless steel cabinets & fittings.",
     image: kitchenImg,
   },
