@@ -15,7 +15,7 @@ export function SiteVisit() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Requesting free site visit%0AName: ${formData.name}%0ALocation: ${formData.area}%0APreferred time: ${formData.time}%0APhone: ${formData.phone}`;
-    window.open(`https://wa.me/917510728660?text=${text}`, "_blank");
+    window.open(`https://wa.me/919148345113?text=${text}`, "_blank");
   };
 
   return (
