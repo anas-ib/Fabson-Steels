@@ -6,7 +6,7 @@ export function Contact() {
       <div className="container px-4 mx-auto">
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
-            <h2 className="text-3xl font-bold font-heading mb-8">Contact Us</h2>
+            <h2 className="text-3xl font-bold font-heading mb-8">Contact Fabson Industries - Steel Works Mangalore</h2>
             
             <div className="space-y-8">
               <div className="flex items-start gap-4">
@@ -14,7 +14,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-bold mb-1">Workshop Location</h3>
                   <p className="text-muted-foreground">
-                    Fabson Steel Works<br />
+                    Fabson Industries<br />
                     {/* Industrial Area, Baikampady<br /> */}
                     Mangalore, Karnataka 575011
                   </p>

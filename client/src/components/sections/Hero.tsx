@@ -18,10 +18,10 @@ export function Hero({ onBookVisit, onGetQuote }: HeroProps) {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-primary font-heading mb-6 leading-[1.1]">
-              Custom Steel & <br /> Fabrication Works
+              Fabson Industries: Premium Steel Works <br /> & Fabrication in Mangalore
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light max-w-xl">
-              Gates · Kitchen Steel · Racks · Custom Fabrication
+              Expert Stainless Steel Works · Custom Gates · Kitchen Steel · Industrial Fabrication · Staircases & Railings
             </p>
           </motion.div>
 

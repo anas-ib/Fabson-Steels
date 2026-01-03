@@ -2,7 +2,7 @@ export function CostTransparency() {
   return (
     <section className="py-24 border-y">
       <div className="container px-4 mx-auto max-w-4xl text-center">
-        <h2 className="text-3xl md:text-4xl font-bold font-heading mb-8">Steel Cost Transparency</h2>
+        <h2 className="text-3xl md:text-4xl font-bold font-heading mb-8">Transparent Steel Fabrication Pricing in Mangalore</h2>
         
         <div className="grid md:grid-cols-2 gap-12 text-left">
           <div className="space-y-6">

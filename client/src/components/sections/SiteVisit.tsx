@@ -23,10 +23,10 @@ export function SiteVisit() {
       <div className="container px-4 mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div>
           <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6">
-            Book Free <br /> Site Visit
+            Book Free Site Visit <br /> in Mangalore
           </h2>
           <p className="text-white/70 text-lg mb-8 max-w-md">
-            Our expert will visit your location to take measurements and discuss design options. No obligation.
+            Our expert will visit your location in Mangalore to take measurements and discuss design options. No obligation. Free consultation for steel fabrication projects.
           </p>
           
           <div className="space-y-4 text-white/50 text-sm">

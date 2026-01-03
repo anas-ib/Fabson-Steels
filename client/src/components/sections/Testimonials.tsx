@@ -15,7 +15,7 @@ export function Testimonials() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold font-heading mb-8">
-              Why Choose Fabson?
+              Why Choose Fabson Industries for Steel Works in Mangalore?
             </h2>
             <p className="text-muted-foreground mb-8 text-lg">
               We don't just weld metal; we build trust. Our commitment to quality and transparency sets us apart in the industry.

@@ -11,6 +11,7 @@ import { Gallery } from "@/components/sections/Gallery";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Contact } from "@/components/sections/Contact";
 import { QuoteModal } from "@/components/ui/QuoteModal";
+import { StructuredData, localBusinessSchema } from "@/components/seo/StructuredData";
 
 export default function Home() {
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
@@ -30,6 +31,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background font-sans text-foreground flex flex-col">
+      <StructuredData type="localBusiness" data={localBusinessSchema} />
       <Navbar />
       
       <main className="flex-grow">

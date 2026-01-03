@@ -14,7 +14,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/">
-          <a className="text-2xl font-bold tracking-tight font-heading">Fabson</a>
+          <a className="text-2xl font-bold tracking-tight font-heading">Fabson Industries</a>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
@@ -33,13 +33,15 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <a href="tel:+919876543210" className="hidden md:flex items-center gap-2 text-sm font-medium hover:text-muted-foreground transition-colors">
+          <a href="tel:+919148345113" className="hidden md:flex items-center gap-2 text-sm font-medium hover:text-muted-foreground transition-colors">
             <Phone className="h-4 w-4" />
             <span>Call Now</span>
           </a>
-          <Button variant="default" className="hidden md:flex items-center gap-2 bg-black text-white hover:bg-black/90 rounded-none">
-            <MessageCircle className="h-4 w-4" />
-            <span>WhatsApp</span>
+          <Button variant="default" className="hidden md:flex items-center gap-2 bg-black text-white hover:bg-black/90 rounded-none" asChild>
+            <a href="https://wa.me/919148345113" target="_blank" rel="noopener noreferrer">
+              <MessageCircle className="h-4 w-4" />
+              <span>WhatsApp</span>
+            </a>
           </Button>
         </div>
       </div>
