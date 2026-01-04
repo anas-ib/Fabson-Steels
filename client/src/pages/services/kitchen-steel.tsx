@@ -77,7 +77,7 @@ export default function KitchenSteel() {
         <section className="py-12">
           <div className="container px-4 mx-auto">
             <div className="aspect-[16/9] overflow-hidden">
-              <img src={kitchenImg} alt="Kitchen stainless steel works in Mangalore by Fabson Industries" className="w-full h-full object-cover" />
+              <img src={kitchenImg} alt="Kitchen stainless steel works in Mangalore by Fabson Industries" className="w-full h-full object-cover" loading="lazy" decoding="async" />
             </div>
           </div>
         </section>
@@ -179,4 +179,6 @@ export default function KitchenSteel() {
     </div>
   );
 }
+
+
 

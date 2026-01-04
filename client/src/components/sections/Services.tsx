@@ -65,6 +65,8 @@ export function Services({ onSelectService }: ServicesProps) {
                     src={service.image} 
                     alt={`${service.title} fabrication in Mangalore by Fabson Industries`}
                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" 
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-6">

@@ -8,7 +8,7 @@ const reasons = [
   "Transparent pricing with no hidden costs",
 ];
 
-export function Testimonials() {
+export default function Testimonials() {
   return (
     <section className="py-24 bg-secondary/30">
       <div className="container px-4 mx-auto">

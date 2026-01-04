@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { MobileNav } from "@/components/layout/MobileNav";
@@ -7,11 +7,13 @@ import { Process } from "@/components/sections/Process";
 import { Services } from "@/components/sections/Services";
 import { CostTransparency } from "@/components/sections/CostTransparency";
 import { SiteVisit } from "@/components/sections/SiteVisit";
-import { Gallery } from "@/components/sections/Gallery";
-import { Testimonials } from "@/components/sections/Testimonials";
-import { Contact } from "@/components/sections/Contact";
 import { QuoteModal } from "@/components/ui/QuoteModal";
 import { StructuredData, localBusinessSchema } from "@/components/seo/StructuredData";
+
+// Lazy load below-the-fold components - they're not needed for initial render
+const Gallery = lazy(() => import("@/components/sections/Gallery"));
+const Testimonials = lazy(() => import("@/components/sections/Testimonials"));
+const Contact = lazy(() => import("@/components/sections/Contact"));
 
 export default function Home() {
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
@@ -48,9 +50,15 @@ export default function Home() {
         />
         <CostTransparency />
         <SiteVisit />
-        <Gallery />
-        <Testimonials />
-        <Contact />
+        <Suspense fallback={null}>
+          <Gallery />
+        </Suspense>
+        <Suspense fallback={null}>
+          <Testimonials />
+        </Suspense>
+        <Suspense fallback={null}>
+          <Contact />
+        </Suspense>
       </main>
 
       <Footer />

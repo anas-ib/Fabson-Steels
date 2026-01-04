@@ -39,6 +39,24 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Separate vendor chunks for better caching
+          'react-vendor': ['react', 'react-dom'],
+          'router': ['wouter'],
+          'ui-vendor': [
+            '@radix-ui/react-dialog',
+            '@radix-ui/react-select',
+            '@radix-ui/react-toast',
+            '@radix-ui/react-tooltip',
+          ],
+          'animations': ['framer-motion'],
+          'icons': ['lucide-react'],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 1000,
   },
   server: {
     host: "0.0.0.0",

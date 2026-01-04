@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import gateImg from "@assets/stock_images/modern_minimalistic__b4ca4779.jpg";
 import kitchenImg from "@assets/stock_images/stainless_steel_modu_5ffa047b.jpg";
-import rackImg from "@assets/stock_images/industrial_heavy_dut_8194c77a.jpg";
+import rackImg from "@assets/stock_images/industrial_heavy_dut_8194c77a.webp";
 import stairImg from "@assets/stock_images/modern_steel_stairca_1b580cf9.jpg";
 
 const galleryImages = [
@@ -13,7 +13,7 @@ const galleryImages = [
   gateImg,
 ];
 
-export function Gallery() {
+export default function Gallery() {
   return (
     <section id="gallery" className="py-24">
       <div className="container px-4 mx-auto">
@@ -31,6 +31,8 @@ export function Gallery() {
                 src={src} 
                 alt={`Steel fabrication project in Mangalore by Fabson Industries - ${i+1}`}
                 className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           ))}

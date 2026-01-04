@@ -1,6 +1,6 @@
-import { MapPin, Phone, Mail, MessageCircle } from "lucide-react";
+import { MapPin, Phone, MessageCircle } from "lucide-react";
 
-export function Contact() {
+export default function Contact() {
   return (
     <section id="contact" className="py-24 border-t">
       <div className="container px-4 mx-auto">
@@ -47,6 +47,7 @@ export function Contact() {
           
           <div className="h-[400px] w-full bg-secondary grayscale hover:grayscale-0 transition-all duration-500">
             <iframe 
+              title="Fabson Industries location map - Mangalore, Karnataka"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62203.25624726591!2d74.7828628379206!3d12.914141699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba35a4c37bf488f%3A0x827bbc7a74fcfe64!2sMangaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1714478148154!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 

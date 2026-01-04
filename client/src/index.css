@@ -86,7 +86,7 @@
   --secondary-foreground: 0 0% 0%;
 
   --muted: 0 0% 96%;
-  --muted-foreground: 0 0% 40%; /* Subtle text */
+  --muted-foreground: 0 0% 45%; /* Subtle text - improved contrast for accessibility */
 
   --accent: 0 0% 96%;
   --accent-foreground: 0 0% 0%;
