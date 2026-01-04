@@ -1,16 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://fabson-steels.onrender.com/sitemap.xml
-
-# Disallow admin and private areas (if any)
-Disallow: /admin/
-Disallow: /api/
-
-# Allow all service pages
-Allow: /services/
-
-# Allow all main pages
-Allow: /
-
